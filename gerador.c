@@ -271,6 +271,9 @@ int main(void)
         #endif
         printf("Deseja sair? ");
         scanf("%*c%c", &sair);
+        for(i = 0; i < tamanhoColuna; ++i)
+          free(matriz[i]);
+        free(matriz);
     } while(sair != 'S' && sair != 's');
     
     return 0;
