@@ -1,5 +1,5 @@
 # Gerador-de-bandeiras-ppm 
-## Compilando (Linux/Windows)
+## Compilando
 ```
 gcc gerador.c -o gerador
 ```
