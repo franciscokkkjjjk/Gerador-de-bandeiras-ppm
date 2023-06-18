@@ -250,7 +250,7 @@ int main(void)
                 break;
             case 8: 
                 gerarEua(tamanhoLinha, matriz);
-                estrelinha(20, 20, matriz);
+                //estrelinha(20, 20, matriz);
                 break;
         }
         
